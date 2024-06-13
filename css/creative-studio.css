@@ -600,8 +600,8 @@ pre code {
   -webkit-flex-wrap: wrap;
       -ms-flex-wrap: wrap;
           flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
+  margin-right: -5px;
+  margin-left: -5px;
 }
 
 .no-gutters {
@@ -11998,4 +11998,31 @@ section .section-title {
      text-align: left;
      margin-bottom: 1px /* Adjust the value as needed */
 
+}
+/*------special stling-------*/
+.resume-card-regular{
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  width: 100%; 
+  height: 40vw;
+  @media only screen and (max-width: 991px){
+    height: 500px;
+    /* CSS that should be displayed if width is equal to or less than 991px goes here */
+  }
+}
+.resume-card-ghs{
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  width: 100%; 
+  height: 60vw;
+  @media only screen and (max-width: 991px){
+    height: 600px;
+    /* CSS that should be displayed if width is equal to or less than 991px goes here */
+  }
+}
+.resume-card-padding{
+  padding-left: 10%;
+  padding-right: 10%;
 }
